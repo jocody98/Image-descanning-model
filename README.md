@@ -4,19 +4,22 @@ Project: Restoring Scanned Images to Original
 (In Korean)
 
 1. 목표
+   
 스캔된 이미지에서 발생하는 다양한 열화현상을 제거하는 디스캐닝 모델 학습
 
 
-2. 사용 모델
+3. 사용 모델
+   
 단순 디노이징 모델 구조를 변형함
+
 잔차 채널 어텐션 모듈의 반복 구조
 
 
-3. 주요사항
+5. 주요사항
 - 잔차 채널 어텐션 블록 구조 모델
 - 학습 데이터셋 이미지 RGB 값 분포 계산 및 데이터 정규화
-- 손실함수 : L1 loss + 0.1 * perceptual mse loss
-- 학습률 스케줄러 : custom cosineAnnealingWarmUpRestarts lr scheduler
+- 손실함수 : L1 loss + 0.1 * perceptual mse loss (수정될 수 있음)
+- 학습률 스케줄러 : custom cosineAnnealingWarmUpRestarts lr scheduler (수정될 수 있음)
 
   (reference : https://gaussian37.github.io/dl-pytorch-lr_scheduler/) (not mine)
 - 학습 파라미터 최적화
