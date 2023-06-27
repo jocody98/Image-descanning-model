@@ -24,3 +24,7 @@ Project: Restoring Scanned Images to Original
 - test.py : 테스트 이미지셋에 대한 결과 이미지 생성
 - train.py : 훈련 이미지셋에 대한 학습 수행
 - y_value_mae.py : YUV 색공간에서 y채널 값의 평균 절대값 오차 계산
+
+5. 기타
+- 데이터셋은 pc에 저장되어 있음
+- 아직 부족한 성능이라 모델 및 학습 파라미터에 대한 추가적인 수정이 예정됨
