@@ -15,7 +15,7 @@ Project: Restoring Scanned Images to Original
 - 학습 데이터셋 이미지 RGB 값 분포 계산 및 데이터 정규화
 - 손실함수 : L1 loss + 0.1 * perceptual mse loss
 - 학습률 스케줄러 : custom cosineAnnealingWarmUpRestarts lr scheduler
-  (reference : https://gaussian37.github.io/dl-pytorch-lr_scheduler/)
+  (reference : https://gaussian37.github.io/dl-pytorch-lr_scheduler/) (not mine)
 - 학습 파라미터 최적화
   에폭, 배치사이즈, 학습률, 채널 개수, 층 개수, 손실함수 등 다양한 파라미터 조정 및 실험
 
