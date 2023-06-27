@@ -16,7 +16,8 @@ Project: Restoring Scanned Images to Original
 - 손실함수 : L1 loss + 0.1 * perceptual mse loss
 - 학습률 스케줄러 : custom cosineAnnealingWarmUpRestarts lr scheduler
   (reference : https://gaussian37.github.io/dl-pytorch-lr_scheduler/) (not mine)
-- 학습 파라미터 최적화/n
+- 학습 파라미터 최적화
+
   에폭, 배치사이즈, 학습률, 채널 개수, 층 개수, 손실함수 등 다양한 파라미터 조정 및 실험
 
 4. 파일 설명
